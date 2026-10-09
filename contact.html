@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Kasule John Reagan - Full Stack Software Engineer specializing in React, Next.js, TypeScript, and scalable web applications." />
+    <meta name="keywords" content="Software Engineer, Full Stack Developer, React, Next.js, TypeScript, Portfolio" />
+    <meta name="author" content="Kasule John Reagan" />
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Kasule John Reagan | Software Engineer" />
+    <meta property="og:description" content="Full Stack Software Engineer building exceptional digital experiences." />
+    <meta property="og:image" content="https://yourdomain.com/assets/images/profile.jpg" />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+
+    <title>Kasule John Reagan | Software Engineer</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+
+</head>
+
+<body data-theme="dark">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Kasule John Reagan</h1>
+
+            <!-- Desktop Menu -->
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn"><i class="fas fa-moon"></i></button>
+                <a href="resume.html" download class="btn-resume"><i class="fas fa-download"></i> Resume</a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="section bg-dark">
+        <div class="container text-center">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p class="mb-12 text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+                I'm currently open to new opportunities and interesting projects.
+            </p>
+
+            <!-- Contact Form -->
+            <form id="contact-form" class="contact-form max-w-2xl mx-auto mb-16" data-aos="fade-up"
+                data-aos-delay="200">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="7" required></textarea>
+                <button type="submit" class="btn-primary large">Send Message</button>
+            </form>
+
+            <!-- Email Link -->
+            <div class="mt-10">
+                <p class="mb-3 text-zinc-400">Or email me directly:</p>
+                <a href="mailto:kalunjirodney86@gmail.com"
+                    class="text-2xl font-medium text-blue-400 hover:text-blue-300 transition">
+                    kalunjirodney86@gmail.com
+                </a>
+            </div>
+
+            <div class="mt-8 text-sm text-zinc-500">
+                (This will open your default email app)
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
